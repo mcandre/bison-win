@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="9.5" version="9.5" Modules="simple" RootPath="." Language="en" Id="{9ACB7F19-9BEC-4F53-9FF1-54909A1C796C}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="bison.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://gnuwin32.sourceforge.net/packages/bison.htm"/>
+    <ROW Property="Manufacturer" Value="GNU"/>
+    <ROW Property="ProductCode" Value="1033:{B0C8B57C-6C14-4D70-AD3D-3F0F8E59DE97} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Bison"/>
+    <ROW Property="ProductVersion" Value="2.4.1" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{74AE28B8-308A-458A-9C17-4FDCFAF87C5E}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="LC_MESSAGES_10_Dir" Directory_Parent="it_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_11_Dir" Directory_Parent="ja_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_12_Dir" Directory_Parent="ky_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_13_Dir" Directory_Parent="lt_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_14_Dir" Directory_Parent="ms_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_15_Dir" Directory_Parent="nb_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_16_Dir" Directory_Parent="nl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_17_Dir" Directory_Parent="pl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_18_Dir" Directory_Parent="pt_BR_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_19_Dir" Directory_Parent="ro_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_1_Dir" Directory_Parent="de_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_20_Dir" Directory_Parent="ru_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_21_Dir" Directory_Parent="sl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_22_Dir" Directory_Parent="sv_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_23_Dir" Directory_Parent="th_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_24_Dir" Directory_Parent="tr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_25_Dir" Directory_Parent="uk_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_26_Dir" Directory_Parent="vi_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_27_Dir" Directory_Parent="zh_CN_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_28_Dir" Directory_Parent="zh_TW_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_2_Dir" Directory_Parent="el_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_3_Dir" Directory_Parent="es_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_4_Dir" Directory_Parent="et_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_5_Dir" Directory_Parent="fi_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_6_Dir" Directory_Parent="fr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_7_Dir" Directory_Parent="ga_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_8_Dir" Directory_Parent="hr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_9_Dir" Directory_Parent="id_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_Dir" Directory_Parent="da_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="aclocal_Dir" Directory_Parent="share_Dir" DefaultDir="aclocal"/>
+    <ROW Directory="bin_Dir" Directory_Parent="APPDIR" DefaultDir="bin"/>
+    <ROW Directory="bison_Dir" Directory_Parent="share_Dir" DefaultDir="bison"/>
+    <ROW Directory="da_Dir" Directory_Parent="locale_Dir" DefaultDir="da"/>
+    <ROW Directory="de_Dir" Directory_Parent="locale_Dir" DefaultDir="de"/>
+    <ROW Directory="el_Dir" Directory_Parent="locale_Dir" DefaultDir="el"/>
+    <ROW Directory="es_Dir" Directory_Parent="locale_Dir" DefaultDir="es"/>
+    <ROW Directory="et_Dir" Directory_Parent="locale_Dir" DefaultDir="et"/>
+    <ROW Directory="fi_Dir" Directory_Parent="locale_Dir" DefaultDir="fi"/>
+    <ROW Directory="fr_Dir" Directory_Parent="locale_Dir" DefaultDir="fr"/>
+    <ROW Directory="ga_Dir" Directory_Parent="locale_Dir" DefaultDir="ga"/>
+    <ROW Directory="hr_Dir" Directory_Parent="locale_Dir" DefaultDir="hr"/>
+    <ROW Directory="id_Dir" Directory_Parent="locale_Dir" DefaultDir="id"/>
+    <ROW Directory="it_Dir" Directory_Parent="locale_Dir" DefaultDir="it"/>
+    <ROW Directory="ja_Dir" Directory_Parent="locale_Dir" DefaultDir="ja"/>
+    <ROW Directory="ky_Dir" Directory_Parent="locale_Dir" DefaultDir="ky"/>
+    <ROW Directory="locale_Dir" Directory_Parent="share_Dir" DefaultDir="locale"/>
+    <ROW Directory="lt_Dir" Directory_Parent="locale_Dir" DefaultDir="lt"/>
+    <ROW Directory="m4sugar_Dir" Directory_Parent="bison_Dir" DefaultDir="m4sugar"/>
+    <ROW Directory="ms_Dir" Directory_Parent="locale_Dir" DefaultDir="ms"/>
+    <ROW Directory="nb_Dir" Directory_Parent="locale_Dir" DefaultDir="nb"/>
+    <ROW Directory="nl_Dir" Directory_Parent="locale_Dir" DefaultDir="nl"/>
+    <ROW Directory="pl_Dir" Directory_Parent="locale_Dir" DefaultDir="pl"/>
+    <ROW Directory="pt_BR_Dir" Directory_Parent="locale_Dir" DefaultDir="pt_BR"/>
+    <ROW Directory="ro_Dir" Directory_Parent="locale_Dir" DefaultDir="ro"/>
+    <ROW Directory="ru_Dir" Directory_Parent="locale_Dir" DefaultDir="ru"/>
+    <ROW Directory="share_Dir" Directory_Parent="APPDIR" DefaultDir="share"/>
+    <ROW Directory="sl_Dir" Directory_Parent="locale_Dir" DefaultDir="sl"/>
+    <ROW Directory="sv_Dir" Directory_Parent="locale_Dir" DefaultDir="sv"/>
+    <ROW Directory="th_Dir" Directory_Parent="locale_Dir" DefaultDir="th"/>
+    <ROW Directory="tr_Dir" Directory_Parent="locale_Dir" DefaultDir="tr"/>
+    <ROW Directory="uk_Dir" Directory_Parent="locale_Dir" DefaultDir="uk"/>
+    <ROW Directory="vi_Dir" Directory_Parent="locale_Dir" DefaultDir="vi"/>
+    <ROW Directory="xslt_Dir" Directory_Parent="bison_Dir" DefaultDir="xslt"/>
+    <ROW Directory="zh_CN_Dir" Directory_Parent="locale_Dir" DefaultDir="zh_CN"/>
+    <ROW Directory="zh_TW_Dir" Directory_Parent="locale_Dir" DefaultDir="zh_TW"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="ProductInformation" ComponentId="{A2EA48C7-4A1C-4ECE-87FC-223DECC0C18C}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="bison.exe" ComponentId="{799BCBE7-9DEB-41C0-9528-E4D055011477}" Directory_="bin_Dir" Attributes="0" KeyPath="bison.exe"/>
+    <ROW Component="bison.m4" ComponentId="{6BD62DFF-780E-4B37-B64B-49E0E45CB8A4}" Directory_="bison_Dir" Attributes="0" KeyPath="bison.m4" Type="0"/>
+    <ROW Component="bison.xsl" ComponentId="{DCF95B1E-080F-4CB6-B892-424F18C3FFB7}" Directory_="xslt_Dir" Attributes="0" KeyPath="bison.xsl" Type="0"/>
+    <ROW Component="bisoni18n.m4" ComponentId="{62D99A66-4D7E-4E4B-AA2C-9D3AA9420748}" Directory_="aclocal_Dir" Attributes="0" KeyPath="bisoni18n.m4" Type="0"/>
+    <ROW Component="bisonruntime.mo" ComponentId="{947E5CA9-8885-4B70-9E2C-070D8C2C7276}" Directory_="LC_MESSAGES_Dir" Attributes="0" KeyPath="bisonruntime.mo" Type="0"/>
+    <ROW Component="bisonruntime.mo_1" ComponentId="{8DC506DB-42F6-4725-A344-930845484BFB}" Directory_="LC_MESSAGES_1_Dir" Attributes="0" KeyPath="bisonruntime.mo_1" Type="0"/>
+    <ROW Component="bisonruntime.mo_10" ComponentId="{591F7780-A57C-489C-93AE-1E72E2A77928}" Directory_="LC_MESSAGES_10_Dir" Attributes="0" KeyPath="bisonruntime.mo_10" Type="0"/>
+    <ROW Component="bisonruntime.mo_11" ComponentId="{70EB4C5B-3574-4B84-9418-83F886EB2389}" Directory_="LC_MESSAGES_11_Dir" Attributes="0" KeyPath="bisonruntime.mo_11" Type="0"/>
+    <ROW Component="bisonruntime.mo_12" ComponentId="{828ABBBB-FA96-4A42-BA01-0FD40A81FC10}" Directory_="LC_MESSAGES_12_Dir" Attributes="0" KeyPath="bisonruntime.mo_12" Type="0"/>
+    <ROW Component="bisonruntime.mo_13" ComponentId="{D737837F-AF39-4C32-A9DD-5FE277D90313}" Directory_="LC_MESSAGES_13_Dir" Attributes="0" KeyPath="bisonruntime.mo_13" Type="0"/>
+    <ROW Component="bisonruntime.mo_14" ComponentId="{6232B74F-E39B-45A9-9870-43F5AFD944CB}" Directory_="LC_MESSAGES_14_Dir" Attributes="0" KeyPath="bisonruntime.mo_14" Type="0"/>
+    <ROW Component="bisonruntime.mo_15" ComponentId="{91509B06-2C9D-4006-8D33-CB82B08E01DD}" Directory_="LC_MESSAGES_15_Dir" Attributes="0" KeyPath="bisonruntime.mo_15" Type="0"/>
+    <ROW Component="bisonruntime.mo_16" ComponentId="{EC3BF3FB-64D4-48FD-BCD8-78F07F9DDC04}" Directory_="LC_MESSAGES_16_Dir" Attributes="0" KeyPath="bisonruntime.mo_16" Type="0"/>
+    <ROW Component="bisonruntime.mo_17" ComponentId="{B1ADB672-FE9E-4FC2-A0DB-1C444BCC98E6}" Directory_="LC_MESSAGES_17_Dir" Attributes="0" KeyPath="bisonruntime.mo_17" Type="0"/>
+    <ROW Component="bisonruntime.mo_18" ComponentId="{BA976C0C-3A16-4E38-A1CD-E167D6AA3D8B}" Directory_="LC_MESSAGES_18_Dir" Attributes="0" KeyPath="bisonruntime.mo_18" Type="0"/>
+    <ROW Component="bisonruntime.mo_19" ComponentId="{98D3F9BA-1843-4C36-976E-C750AAD69050}" Directory_="LC_MESSAGES_19_Dir" Attributes="0" KeyPath="bisonruntime.mo_19" Type="0"/>
+    <ROW Component="bisonruntime.mo_2" ComponentId="{D7DB5BDE-8CA7-4986-B4EC-F3D3164201D1}" Directory_="LC_MESSAGES_2_Dir" Attributes="0" KeyPath="bisonruntime.mo_2" Type="0"/>
+    <ROW Component="bisonruntime.mo_20" ComponentId="{A0A30FA6-2060-4AA7-B47F-3EB3A5A0AD84}" Directory_="LC_MESSAGES_20_Dir" Attributes="0" KeyPath="bisonruntime.mo_20" Type="0"/>
+    <ROW Component="bisonruntime.mo_21" ComponentId="{924F9E52-BA3C-4FA4-8855-B21E08155DA2}" Directory_="LC_MESSAGES_21_Dir" Attributes="0" KeyPath="bisonruntime.mo_21" Type="0"/>
+    <ROW Component="bisonruntime.mo_22" ComponentId="{E07C9864-1FE9-446A-AF90-9A1722594D38}" Directory_="LC_MESSAGES_22_Dir" Attributes="0" KeyPath="bisonruntime.mo_22" Type="0"/>
+    <ROW Component="bisonruntime.mo_23" ComponentId="{DC60C7D3-13CF-494D-8402-1F21D8550A12}" Directory_="LC_MESSAGES_23_Dir" Attributes="0" KeyPath="bisonruntime.mo_23" Type="0"/>
+    <ROW Component="bisonruntime.mo_24" ComponentId="{B0DE76A4-ABCE-400D-ABF3-84285F414AAE}" Directory_="LC_MESSAGES_24_Dir" Attributes="0" KeyPath="bisonruntime.mo_24" Type="0"/>
+    <ROW Component="bisonruntime.mo_25" ComponentId="{F5209495-3DF4-4942-BD39-601A43D5AAE9}" Directory_="LC_MESSAGES_25_Dir" Attributes="0" KeyPath="bisonruntime.mo_25" Type="0"/>
+    <ROW Component="bisonruntime.mo_26" ComponentId="{4CC35019-332F-49B4-9FCB-B72AA1A73939}" Directory_="LC_MESSAGES_26_Dir" Attributes="0" KeyPath="bisonruntime.mo_26" Type="0"/>
+    <ROW Component="bisonruntime.mo_27" ComponentId="{6C95D004-0608-4B49-9790-1447375004EA}" Directory_="LC_MESSAGES_27_Dir" Attributes="0" KeyPath="bisonruntime.mo_27" Type="0"/>
+    <ROW Component="bisonruntime.mo_28" ComponentId="{89977BB8-9601-48F1-909B-DF5C1101565A}" Directory_="LC_MESSAGES_28_Dir" Attributes="0" KeyPath="bisonruntime.mo_28" Type="0"/>
+    <ROW Component="bisonruntime.mo_3" ComponentId="{BD35F422-D579-43BC-A496-0E91CA17AB00}" Directory_="LC_MESSAGES_3_Dir" Attributes="0" KeyPath="bisonruntime.mo_3" Type="0"/>
+    <ROW Component="bisonruntime.mo_4" ComponentId="{A1C6309E-CD0E-4B6E-9F8C-B8A3F7D6FB1B}" Directory_="LC_MESSAGES_4_Dir" Attributes="0" KeyPath="bisonruntime.mo_4" Type="0"/>
+    <ROW Component="bisonruntime.mo_5" ComponentId="{C5DE84CB-E3BD-4D90-8E37-D3042659DB53}" Directory_="LC_MESSAGES_5_Dir" Attributes="0" KeyPath="bisonruntime.mo_5" Type="0"/>
+    <ROW Component="bisonruntime.mo_6" ComponentId="{87F1D816-566A-4865-BCCD-63520C04C7F2}" Directory_="LC_MESSAGES_6_Dir" Attributes="0" KeyPath="bisonruntime.mo_6" Type="0"/>
+    <ROW Component="bisonruntime.mo_7" ComponentId="{09ECE5E5-E6BB-47A8-AAF2-6DA375843FC1}" Directory_="LC_MESSAGES_7_Dir" Attributes="0" KeyPath="bisonruntime.mo_7" Type="0"/>
+    <ROW Component="bisonruntime.mo_8" ComponentId="{4687D171-0160-4C34-83D4-22DB62A725B2}" Directory_="LC_MESSAGES_8_Dir" Attributes="0" KeyPath="bisonruntime.mo_8" Type="0"/>
+    <ROW Component="bisonruntime.mo_9" ComponentId="{CAD468E8-F6C9-4D02-A59B-A11A4837A788}" Directory_="LC_MESSAGES_9_Dir" Attributes="0" KeyPath="bisonruntime.mo_9" Type="0"/>
+    <ROW Component="foreach.m4" ComponentId="{F43AD238-A034-4C0A-81A9-8AB66FF0598D}" Directory_="m4sugar_Dir" Attributes="0" KeyPath="foreach.m4" Type="0"/>
+    <ROW Component="m4.exe" ComponentId="{8D9372B3-9C6F-4A81-BD58-00B057D2F08E}" Directory_="bin_Dir" Attributes="0" KeyPath="m4.exe"/>
+    <ROW Component="yacc" ComponentId="{276FF9FD-0CCD-4ED7-9144-B0DB53154348}" Directory_="bin_Dir" Attributes="0" KeyPath="yacc" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ProductInformation bison.exe bison.m4 bison.xsl bisoni18n.m4 bisonruntime.mo bisonruntime.mo_1 bisonruntime.mo_10 bisonruntime.mo_11 bisonruntime.mo_12 bisonruntime.mo_13 bisonruntime.mo_14 bisonruntime.mo_15 bisonruntime.mo_16 bisonruntime.mo_17 bisonruntime.mo_18 bisonruntime.mo_19 bisonruntime.mo_2 bisonruntime.mo_20 bisonruntime.mo_21 bisonruntime.mo_22 bisonruntime.mo_23 bisonruntime.mo_24 bisonruntime.mo_25 bisonruntime.mo_26 bisonruntime.mo_27 bisonruntime.mo_28 bisonruntime.mo_3 bisonruntime.mo_4 bisonruntime.mo_5 bisonruntime.mo_6 bisonruntime.mo_7 bisonruntime.mo_8 bisonruntime.mo_9 foreach.m4 m4.exe yacc"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="README" Component_="bison.m4" FileName="README" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\README" SelfReg="false" NextFile="bison.xsl"/>
+    <ROW File="bison.exe" Component_="bison.exe" FileName="bison.exe" Attributes="0" SourcePath="bison-2.4.1-bin\bin\bison.exe" SelfReg="false" NextFile="m4.exe"/>
+    <ROW File="bison.m4" Component_="bison.m4" FileName="bison.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\bison.m4" SelfReg="false" NextFile="cskel.m4"/>
+    <ROW File="bison.mo" Component_="bisonruntime.mo" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\da\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_1"/>
+    <ROW File="bison.mo_1" Component_="bisonruntime.mo_1" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\de\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_2"/>
+    <ROW File="bison.mo_10" Component_="bisonruntime.mo_11" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ja\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_12"/>
+    <ROW File="bison.mo_11" Component_="bisonruntime.mo_14" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ms\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_15"/>
+    <ROW File="bison.mo_12" Component_="bisonruntime.mo_15" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\nb\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_16"/>
+    <ROW File="bison.mo_13" Component_="bisonruntime.mo_16" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\nl\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_17"/>
+    <ROW File="bison.mo_14" Component_="bisonruntime.mo_17" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\pl\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_18"/>
+    <ROW File="bison.mo_15" Component_="bisonruntime.mo_18" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\pt_BR\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_19"/>
+    <ROW File="bison.mo_16" Component_="bisonruntime.mo_19" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ro\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_20"/>
+    <ROW File="bison.mo_17" Component_="bisonruntime.mo_20" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ru\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_21"/>
+    <ROW File="bison.mo_18" Component_="bisonruntime.mo_22" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\sv\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_23"/>
+    <ROW File="bison.mo_19" Component_="bisonruntime.mo_24" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\tr\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_25"/>
+    <ROW File="bison.mo_2" Component_="bisonruntime.mo_2" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\el\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_3"/>
+    <ROW File="bison.mo_20" Component_="bisonruntime.mo_25" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\uk\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_26"/>
+    <ROW File="bison.mo_21" Component_="bisonruntime.mo_26" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\vi\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_27"/>
+    <ROW File="bison.mo_22" Component_="bisonruntime.mo_28" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\zh_TW\LC_MESSAGES\bison.mo" SelfReg="false"/>
+    <ROW File="bison.mo_3" Component_="bisonruntime.mo_3" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\es\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_4"/>
+    <ROW File="bison.mo_4" Component_="bisonruntime.mo_4" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\et\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_5"/>
+    <ROW File="bison.mo_5" Component_="bisonruntime.mo_6" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\fr\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_7"/>
+    <ROW File="bison.mo_6" Component_="bisonruntime.mo_7" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ga\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_8"/>
+    <ROW File="bison.mo_7" Component_="bisonruntime.mo_8" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\hr\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_9"/>
+    <ROW File="bison.mo_8" Component_="bisonruntime.mo_9" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\id\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_10"/>
+    <ROW File="bison.mo_9" Component_="bisonruntime.mo_10" FileName="bison.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\it\LC_MESSAGES\bison.mo" SelfReg="false" NextFile="bisonruntime.mo_11"/>
+    <ROW File="bison.xsl" Component_="bison.xsl" FileName="bison.xsl" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\xslt\bison.xsl" SelfReg="false" NextFile="xml2dot.xsl"/>
+    <ROW File="bisoni18n.m4" Component_="bisoni18n.m4" FileName="bison-~1.m4|bison-i18n.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\aclocal\bison-i18n.m4" SelfReg="false" NextFile="bison.m4"/>
+    <ROW File="bisonruntime.mo" Component_="bisonruntime.mo" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\da\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo"/>
+    <ROW File="bisonruntime.mo_1" Component_="bisonruntime.mo_1" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\de\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_1"/>
+    <ROW File="bisonruntime.mo_10" Component_="bisonruntime.mo_10" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\it\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_9"/>
+    <ROW File="bisonruntime.mo_11" Component_="bisonruntime.mo_11" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ja\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_10"/>
+    <ROW File="bisonruntime.mo_12" Component_="bisonruntime.mo_12" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ky\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bisonruntime.mo_13"/>
+    <ROW File="bisonruntime.mo_13" Component_="bisonruntime.mo_13" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\lt\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bisonruntime.mo_14"/>
+    <ROW File="bisonruntime.mo_14" Component_="bisonruntime.mo_14" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ms\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_11"/>
+    <ROW File="bisonruntime.mo_15" Component_="bisonruntime.mo_15" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\nb\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_12"/>
+    <ROW File="bisonruntime.mo_16" Component_="bisonruntime.mo_16" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\nl\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_13"/>
+    <ROW File="bisonruntime.mo_17" Component_="bisonruntime.mo_17" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\pl\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_14"/>
+    <ROW File="bisonruntime.mo_18" Component_="bisonruntime.mo_18" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\pt_BR\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_15"/>
+    <ROW File="bisonruntime.mo_19" Component_="bisonruntime.mo_19" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ro\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_16"/>
+    <ROW File="bisonruntime.mo_2" Component_="bisonruntime.mo_2" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\el\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_2"/>
+    <ROW File="bisonruntime.mo_20" Component_="bisonruntime.mo_20" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ru\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_17"/>
+    <ROW File="bisonruntime.mo_21" Component_="bisonruntime.mo_21" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\sl\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bisonruntime.mo_22"/>
+    <ROW File="bisonruntime.mo_22" Component_="bisonruntime.mo_22" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\sv\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_18"/>
+    <ROW File="bisonruntime.mo_23" Component_="bisonruntime.mo_23" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\th\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bisonruntime.mo_24"/>
+    <ROW File="bisonruntime.mo_24" Component_="bisonruntime.mo_24" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\tr\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_19"/>
+    <ROW File="bisonruntime.mo_25" Component_="bisonruntime.mo_25" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\uk\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_20"/>
+    <ROW File="bisonruntime.mo_26" Component_="bisonruntime.mo_26" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\vi\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_21"/>
+    <ROW File="bisonruntime.mo_27" Component_="bisonruntime.mo_27" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\zh_CN\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bisonruntime.mo_28"/>
+    <ROW File="bisonruntime.mo_28" Component_="bisonruntime.mo_28" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\zh_TW\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_22"/>
+    <ROW File="bisonruntime.mo_3" Component_="bisonruntime.mo_3" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\es\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_3"/>
+    <ROW File="bisonruntime.mo_4" Component_="bisonruntime.mo_4" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\et\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_4"/>
+    <ROW File="bisonruntime.mo_5" Component_="bisonruntime.mo_5" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\fi\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bisonruntime.mo_6"/>
+    <ROW File="bisonruntime.mo_6" Component_="bisonruntime.mo_6" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\fr\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_5"/>
+    <ROW File="bisonruntime.mo_7" Component_="bisonruntime.mo_7" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\ga\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_6"/>
+    <ROW File="bisonruntime.mo_8" Component_="bisonruntime.mo_8" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\hr\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_7"/>
+    <ROW File="bisonruntime.mo_9" Component_="bisonruntime.mo_9" FileName="bison-~1.mo|bison-runtime.mo" Attributes="0" SourcePath="bison-2.4.1-bin\share\locale\id\LC_MESSAGES\bison-runtime.mo" SelfReg="false" NextFile="bison.mo_8"/>
+    <ROW File="c.m4" Component_="bison.m4" FileName="c__~1.m4|c++.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\c++.m4" SelfReg="false" NextFile="cskel.m4_1"/>
+    <ROW File="c.m4_1" Component_="bison.m4" FileName="c.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\c.m4" SelfReg="false" NextFile="glr.c"/>
+    <ROW File="cskel.m4" Component_="bison.m4" FileName="c__-sk~1.m4|c++-skel.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\c++-skel.m4" SelfReg="false" NextFile="c.m4"/>
+    <ROW File="cskel.m4_1" Component_="bison.m4" FileName="c-skel.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\c-skel.m4" SelfReg="false" NextFile="c.m4_1"/>
+    <ROW File="foreach.m4" Component_="foreach.m4" FileName="foreach.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\m4sugar\foreach.m4" SelfReg="false" NextFile="m4sugar.m4"/>
+    <ROW File="glr.c" Component_="bison.m4" FileName="glr.c" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\glr.c" SelfReg="false" NextFile="glr.cc"/>
+    <ROW File="glr.cc" Component_="bison.m4" FileName="glr.cc" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\glr.cc" SelfReg="false" NextFile="javaskel.m4"/>
+    <ROW File="java.m4" Component_="bison.m4" FileName="java.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\java.m4" SelfReg="false" NextFile="lalr1.cc"/>
+    <ROW File="javaskel.m4" Component_="bison.m4" FileName="java-s~1.m4|java-skel.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\java-skel.m4" SelfReg="false" NextFile="java.m4"/>
+    <ROW File="lalr1.cc" Component_="bison.m4" FileName="lalr1.cc" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\lalr1.cc" SelfReg="false" NextFile="lalr1.java"/>
+    <ROW File="lalr1.java" Component_="bison.m4" FileName="lalr1~1.jav|lalr1.java" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\lalr1.java" SelfReg="false" NextFile="location.cc"/>
+    <ROW File="location.cc" Component_="bison.m4" FileName="location.cc" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\location.cc" SelfReg="false" NextFile="foreach.m4"/>
+    <ROW File="m4.exe" Component_="m4.exe" FileName="m4.exe" Attributes="0" SourcePath="bison-2.4.1-bin\bin\m4.exe" SelfReg="false" NextFile="yacc"/>
+    <ROW File="m4sugar.m4" Component_="foreach.m4" FileName="m4sugar.m4" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\m4sugar\m4sugar.m4" SelfReg="false" NextFile="README"/>
+    <ROW File="xml2dot.xsl" Component_="bison.xsl" FileName="xml2dot.xsl" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\xslt\xml2dot.xsl" SelfReg="false" NextFile="xml2text.xsl"/>
+    <ROW File="xml2text.xsl" Component_="bison.xsl" FileName="xml2text.xsl" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\xslt\xml2text.xsl" SelfReg="false" NextFile="xml2xhtml.xsl"/>
+    <ROW File="xml2xhtml.xsl" Component_="bison.xsl" FileName="xml2xh~1.xsl|xml2xhtml.xsl" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\xslt\xml2xhtml.xsl" SelfReg="false" NextFile="yacc.c"/>
+    <ROW File="yacc" Component_="yacc" FileName="yacc" Attributes="0" SourcePath="bison-2.4.1-bin\bin\yacc" SelfReg="false" NextFile="bisoni18n.m4"/>
+    <ROW File="yacc.c" Component_="bison.m4" FileName="yacc.c" Attributes="0" SourcePath="bison-2.4.1-bin\share\bison\yacc.c" SelfReg="false" NextFile="bisonruntime.mo"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." PackageFileName="bison-2.4.1" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ATTRIBUTE name="FixedSizeBitmaps" value="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Type="1" Source="aicustact.dll" Target="GetLocalizedCredentials"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
+    <ROW Environment="PATH" Name="=-PATH" Value="[~];[APPDIR]bin" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="bison.exe" SourcePath="bison-2.4.1-bin\bin\bison.exe" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
